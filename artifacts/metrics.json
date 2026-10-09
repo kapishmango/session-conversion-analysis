@@ -1,0 +1,72 @@
+{
+  "selected_model": "Gradient boosting",
+  "selection_metric": "mean training CV average precision",
+  "validation_threshold": 0.2,
+  "threshold_selection": "maximum validation F1 on a fixed grid",
+  "test": {
+    "roc_auc": 0.7851079766108373,
+    "average_precision": 0.3726492095314618,
+    "precision": 0.3258575197889182,
+    "recall": 0.6482939632545932,
+    "f1": 0.43371378402107114,
+    "accuracy": 0.7384428223844283,
+    "confusion_matrix": [
+      [
+        1574,
+        511
+      ],
+      [
+        134,
+        247
+      ]
+    ]
+  },
+  "validation": {
+    "roc_auc": 0.784350473816965,
+    "average_precision": 0.3800810268174833,
+    "precision": 0.322237017310253,
+    "recall": 0.6335078534031413,
+    "f1": 0.42718446601941745,
+    "accuracy": 0.7368207623682076,
+    "confusion_matrix": [
+      [
+        1575,
+        509
+      ],
+      [
+        140,
+        242
+      ]
+    ]
+  },
+  "test_baseline_ap": 0.15450121654501217,
+  "split_summary": {
+    "train": {
+      "rows": 7398,
+      "positive": 1145,
+      "positive_rate": 0.15477155988104893
+    },
+    "validation": {
+      "rows": 2466,
+      "positive": 382,
+      "positive_rate": 0.1549067315490673
+    },
+    "test": {
+      "rows": 2466,
+      "positive": 381,
+      "positive_rate": 0.15450121654501217
+    }
+  },
+  "seed": 42,
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.8.0",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8",
+    "seaborn": "0.13.2",
+    "joblib": "1.5.3"
+  },
+  "runtime_seconds": 20.96
+}

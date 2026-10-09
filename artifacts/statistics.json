@@ -1,0 +1,8 @@
+{
+  "analysis_partition": "train",
+  "chi2": 75.3708782735874,
+  "p_value": 4.299537436925327e-17,
+  "degrees_of_freedom": 2,
+  "minimum_expected_cell": 8.51243579345769,
+  "interpretation": "Exploratory association only; neither causality nor future business impact."
+}

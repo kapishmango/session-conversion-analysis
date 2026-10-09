@@ -1,0 +1,27 @@
+{
+  "rows": 12330,
+  "raw_columns": 18,
+  "missing_cells": 0,
+  "exact_duplicate_rows": 125,
+  "duplicate_predictor_rows": 125,
+  "duplicates_policy": "Retained; identical predictor rows are grouped into the same partition and CV fold.",
+  "sha256": "b3055ee355f59134d851d32641183cb4a8b45def7124d2f50442a042f358e0d9",
+  "excluded_predictor": "PageValues",
+  "split_summary": {
+    "train": {
+      "rows": 7398,
+      "positive": 1145,
+      "positive_rate": 0.15477155988104893
+    },
+    "validation": {
+      "rows": 2466,
+      "positive": 382,
+      "positive_rate": 0.1549067315490673
+    },
+    "test": {
+      "rows": 2466,
+      "positive": 381,
+      "positive_rate": 0.15450121654501217
+    }
+  }
+}
